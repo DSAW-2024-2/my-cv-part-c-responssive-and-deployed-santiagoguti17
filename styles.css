@@ -1,0 +1,142 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header.nombre{
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px; 
+}
+
+h1, h2 {
+  font-weight: bold;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 40px; 
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.perfil {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; 
+  width: 80%;
+}
+
+.img-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.educacion, .habilidades {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; 
+  width: 80%; 
+}
+
+.educacion ul, .habilidades ul {
+  padding-left: 20px;
+}
+
+.educacion li, .habilidades li {
+  margin-bottom: 10px;
+}
+
+.educacion strong, .habilidades strong {
+  font-weight: bold;
+}
+
+.educacion ul ul, .habilidades ul ul {
+  padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .perfil, .educacion, .habilidades {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .img-container {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+}
+
+/* Media queries para desktop */
+
+@media (min-width: 1024px) {
+  body {
+    padding: 20px;
+  }
+
+  .perfil, .educacion, .habilidades {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .img-container {
+    width: 120px;
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
