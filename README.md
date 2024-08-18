@@ -1,3 +1,7 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/oG8dozaL)
+
+# https://dsaw-2024-2.github.io/my-cv-part-c-responssive-and-deployed-santiagoguti17/
+
 # Bienvenidos a la Tarea de HTML y CSS
 
 ¡Hola a todos!
