@@ -90,7 +90,7 @@ li {
   padding-left: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   body {
     padding: 10px;
   }
@@ -98,21 +98,32 @@ li {
   .perfil, .educacion, .habilidades {
     width: 100%;
     margin: 10px auto;
+    padding: 10px; 
   }
 
   .img-container {
-    width: 80px;
-    height: 80px;
+    width: 60px; 
+    height: 60px;
+    margin: 0 auto 10px; 
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  ul {
+    margin: 0 0 10px 20px; 
+  }
+
+  li {
+    margin-bottom: 5px; 
   }
 }
+
 
 /* Media queries para desktop */
 
